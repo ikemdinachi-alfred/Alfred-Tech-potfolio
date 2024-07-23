@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #2ac77d;
+  --color-secondary: #1171d1;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -580,6 +580,7 @@ section {
 }
 .contact-content-con .left-contact .contact-icon a:hover i {
   color: var(--color-primary);
+  
 }
 .contact-content-con .left-contact .contact-icon a i {
   display: flex;
@@ -606,6 +607,24 @@ section {
   width: 100%;
   color: var(--color-white);
   resize: none;
+}
+.right-contact{
+  display: flex;
+  justify-content: center;
+}
+
+.right-contact .button{
+  justify-content: center;
+   display: flex;
+    padding:15px 45px;
+     color:black; 
+     background-color: var(--color-secondary);
+      border:none; border-radius:15px; 
+      font-size:20px; 
+      text-align:center
+}
+.button:hover {
+  transition: all 0.4s ease-out;
 }
 .contact-content-con .right-contact .i-c-2 {
   display: flex;
@@ -693,6 +712,7 @@ section {
 .about-container .left-about p {
   padding-left: 0;
 }
+
 
 @media screen and (max-width: 600px) {
   header {
