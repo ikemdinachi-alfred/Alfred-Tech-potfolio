@@ -41,6 +41,7 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 a {
@@ -312,19 +313,22 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 65%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
   width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .excel {
+  width: 85%;
 }
 
 .stat-title {
@@ -524,6 +528,7 @@ section {
   padding-bottom: 1rem;
 }
 
+
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
@@ -557,6 +562,27 @@ section {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
+}
+.contact-info{
+  flex-direction: column;
+  gap: 150px;
+}
+
+.contact-form button{
+    display: flex;
+    padding: 15px 45px;
+    color: black;
+    background-color: #12b99a;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+  background-color: var(--color-secondary);
+  color: #dbe1e8;
 }
 .contact-content-con .left-contact .contact-icon {
   display: flex;

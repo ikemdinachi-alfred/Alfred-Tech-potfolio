@@ -12,3 +12,14 @@
     })
 })();
 
+function setDownloadLink(elementId, filePath) {
+    var linkElement = document.getElementById(elementId);
+    if (linkElement) {
+        linkElement.href = filePath;
+    }
+}
+
+var cv = "./Ikemdinachi Resume $.pdf";
+setDownloadLink("download-link1", cv);
+setDownloadLink("download-link2", cv);
+setDownloadLink("download-link3", cv);
