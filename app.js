@@ -19,7 +19,7 @@ function setDownloadLink(elementId, filePath) {
     }
 }
 
-var cv = "./Ikemdinachi Resume $.pdf";
-setDownloadLink("download-link1", cv);
-setDownloadLink("download-link2", cv);
+const cv = "./Ikemdinachi Resume $.pdf";
+setDownloadLink("download-link", cv);
+setDownloadLink("download-links", cv);
 setDownloadLink("download-link3", cv);
